@@ -1,0 +1,26 @@
+.navbar	{
+	display: block;
+	background-color: gray;
+	height: 60px;
+}
+.navItems li{
+	list-style-type: none;
+	display: inline-block;
+	padding:10px 0  0 20px;
+
+}
+.navItems a{
+	color: #fff;
+	padding-left: 15px;
+}
+.logo	{
+	height: 40px;
+	width: 30px;
+}
+.jumbotron {
+	background-image: url("../img/jeans.jpeg");
+	background-repeat: no-repeat;
+	background-blend-mode: soft-light;
+	background-size: cover;
+	height: 350px;
+}
