@@ -13,6 +13,12 @@
 	color: #fff;
 	padding-left: 15px;
 }
+.drop-down:hover li{
+	display: list-item;
+}
+.drop-down  ul li{
+	display: none;
+}
 .logo	{
 	height: 40px;
 	width: 30px;
@@ -23,4 +29,7 @@
 	background-blend-mode: soft-light;
 	background-size: cover;
 	height: 350px;
+}
+.thumbnail-img img {
+	height: 250px;
 }
