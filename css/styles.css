@@ -24,10 +24,11 @@
 	width: 30px;
 }
 .jumbotron {
-	background-image: url("../img/jeans.jpeg");
+	background-image: url("../img/Slider1.jpg");
 	background-repeat: no-repeat;
-	background-blend-mode: soft-light;
+	background-blend-mode: luminosity;
 	background-size: cover;
+	overflow: hidden;
 	height: 350px;
 }
 .thumbnail-img img {
