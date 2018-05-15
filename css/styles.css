@@ -7,33 +7,65 @@
   margin: 10px 0 0 0;
   padding: 0 5px 0 5px;
 }
-#img {
-  height: 45px;
-  width: 35px;
+.navbar	{
+	display: block;
+	background-color: gray;
+	height: 60px;
 }
-img {
-  height: 40px;
-  width: 30px;
+.navItems li{
+	list-style-type: none;
+	display: inline-block;
+	padding:10px 0  0 20px;
 }
-.about, .contact, .testimonial {
-  background-color: #BFBABA;
-  padding: 5px 0 5px 0;
-  margin: 15px 0 15px 0;
-  height: 30px;
-  text-align: center;
-  border-radius: 3px;
+.navItems a{
+	color: #fff;
+	padding-left: 15px;
 }
-.row-about, .row-testimonial, .row-contact {
+.logo	{
+	height: 40px;
+	width: 30px;
+}
+.row-about {
   height: 450px;
-  background-color: #FEC5C5;
+  background-color: #E8E7E7;
+  margin: 2px 0 10px 0;
+}
+.row-testimonial, .row-contact {
+  height: 450px;
+  background-color: #E8E7E7;
   margin: 40px 0 10px 0;
 }
 #social {
   padding: 20px 100px 20px 100px;
-  margin: 0 100px 0 100px;
+  margin: 50px 100px 0 100px;
   text-align: center;
 }
 .social-logos {
-  
   display: inline-block;
+  padding: 30px 0 0 0;
+}
+#facebook {
+  height: 23px;
+  width: 23px;
+  margin: 10px 10px 10px 10px;
+}
+#twitter{
+  height: 30px;
+  width: 30px;
+  margin: 10px 10px 10px 10px;
+}
+#insta {
+  height: 30px;
+  width: 30px;
+  margin: 10px 10px 10px 10px;
+}
+#google {
+  height: 30px;
+  width: 30px;
+  margin: 10px 10px 10px 10px;
+}
+#youtube {
+  height: 25px;
+  width: 25px;
+  margin: 10px 10px 10px 10px;
 }
