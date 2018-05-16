@@ -26,7 +26,6 @@ header	{
 	list-style-type: none;
 	display: inline-block;
 	padding:10px 0  0 20px;
-
 }
 .navItems a{
 	color: #000;
@@ -108,4 +107,49 @@ footer p{
 footer p a{
 	color: #000;
 	font-family: 'Open Sans', sans-serif;
+}
+}
+.row-about {
+  height: 450px;
+  background-color: #E8E7E7;
+  margin: 2px 0 10px 0;
+}
+.row-testimonial, .row-contact {
+  height: 450px;
+  background-color: #E8E7E7;
+  margin: 40px 0 10px 0;
+}
+#social {
+  padding: 20px 100px 20px 100px;
+  margin: 50px 100px 0 100px;
+  text-align: center;
+}
+.social-logos {
+  display: inline-block;
+  padding: 30px 0 0 0;
+}
+#facebook {
+  height: 23px;
+  width: 23px;
+  margin: 10px 10px 10px 10px;
+}
+#twitter{
+  height: 30px;
+  width: 30px;
+  margin: 10px 10px 10px 10px;
+}
+#insta {
+  height: 30px;
+  width: 30px;
+  margin: 10px 10px 10px 10px;
+}
+#google {
+  height: 30px;
+  width: 30px;
+  margin: 10px 10px 10px 10px;
+}
+#youtube {
+  height: 25px;
+  width: 25px;
+  margin: 10px 10px 10px 10px;
 }
