@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 .navbar	{
 	display: block;
 	background-color: gray;
@@ -12,6 +13,7 @@
 .navItems a{
 	color: #fff;
 	padding-left: 15px;
+	font-family: 'Open Sans', sans-serif;
 }
 .drop-down:hover li{
 	display: list-item;
@@ -24,13 +26,14 @@
 	width: 30px;
 }
 .jumbotron {
-	background-image: url("../img/Slider1.jpg");
+	background-image: url("../img/banner.jpg");
 	background-repeat: no-repeat;
-	background-blend-mode: luminosity;
-	background-size: cover;
-	overflow: hidden;
+	background-size: contain;
 	height: 350px;
+	color: red;
+	font-size: 40px;
 }
+
 .thumbnail-img img {
 	height: 250px;
 }
