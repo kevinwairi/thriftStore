@@ -1,0 +1,43 @@
+body{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.single-item{
+  max-width: 300px;
+}
+.col-two, .col-three {
+  margin-top: 20px;
+}
+ul.list-items {
+  list-style-type: none;
+}
+.item {
+  padding: 12px;
+  padding-left: 0;
+  border-top: 1px solid #ddd;
+}
+.item a{
+  color: #444;
+  font-size: 1.6rem;
+}
+.item a:active{
+  font-weight: 700;
+  text-decoration: none;  
+}
+.item a:hover{ 
+  text-decoration: none;
+  opacity: 0.7;
+}
+.single-item-desc{
+  text-align: center;
+  padding-top: 5px;
+  margin: 0;
+}
+.item--cost{
+  text-align: center;
+  color: red;
+  font-weight: 700;
+  padding-top: -5px;
+}
