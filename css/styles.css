@@ -30,7 +30,12 @@
   background-color: #E8E7E7;
   margin: 2px 0 10px 0;
 }
-.row-testimonial, .row-contact {
+.row-testimonial {
+  height: 600px;
+  background-color: #E8E7E7;
+  margin: 40px 0 10px 0;
+}
+.row-contact {
   height: 450px;
   background-color: #E8E7E7;
   margin: 40px 0 10px 0;
