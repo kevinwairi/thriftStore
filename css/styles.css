@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+.container-fluid	{
+	padding: 0 0 0 0 ;
+	margin: 0 0 0 0 ;
+}
+body{
+	background-color: #fff;
+}
 .navbar	{
 	display: block;
-	background-color: gray;
+	/*background-color: gray;*/
 	height: 60px;
+
 }
 .navItems li{
 	list-style-type: none;
@@ -11,7 +19,7 @@
 
 }
 .navItems a{
-	color: #fff;
+	color: black;
 	padding-left: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -25,15 +33,46 @@
 	height: 40px;
 	width: 30px;
 }
-.jumbotron {
-	background-image: url("../img/banner.jpg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 350px;
+.intro{
+	padding-top: 100px;
+	margin: 0 auto;
+	width: 400px;
 	color: red;
-	font-size: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+/*.adv	{
+	height:  200px;
+	width: 100%;
+}*/
+.section{
+	height: 400px;
+
+}
+.wrapper {
+/*	border: 1px solid #ddd;*/
+	padding: 4px;
+
+	margin-left: 10px;
+	width: 335px;
+/*	overflow: hidden;*/
 }
 
-.thumbnail-img img {
-	height: 250px;
+.wrapper img{
+	width: 250px;
+	margin-left: 4px;
+	height: 200px;
+	margin: 0 -60px;
+} 
+.wrapper img:hover {
+	transform: scale(1.2);
+}
+.img-thumbnail{
+	padding: 10px;
+	height: 210px;
+	width: 260px;
+}
+.header	{
+	background-color: gray;
+	height: 300px;
 }
