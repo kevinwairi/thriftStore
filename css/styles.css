@@ -8,16 +8,14 @@
 body{
 	background-color: #fff;
 }
-.header	{
-	height: 320px;
+header	{
+	height: 70px;
 }
 .title	{
-/*	position: fixed;*/
 	width: 100%;
 	top: 0;
-	overflow: hidden;
+	height: 200px;
 }
-
 .navbar	{
 	display: block;
 	height: 60px;
@@ -51,6 +49,7 @@ body{
 	color: #518d39;
 	font-size: 20px;
 	text-align: center;
+	
 }
 .intro p {
 	font-family:'Amatic SC', cursive;
@@ -68,9 +67,10 @@ body{
 	transform: scale(1.2);
 	border:0;
 }
-.section{
+.one{
 	height: 250px;
 	font-family: 'Josefin Sans', sans-serif;
+	background-image: url('../img/whatwetake.jpg');
 	font-weight: 20px;
 
 }
@@ -97,15 +97,15 @@ body{
 	height: 210px;
 	width: 260px;
 }
-.footer{
+footer{
 	padding: 10px;
 	background-color: #518d39;
 }
-.footer p{
+footer p{
 	padding-left: 60px;
 	display: inline-block;
 }
-.footer p a{
+footer p a{
 	color: #000;
 	font-family: 'Open Sans', sans-serif;
 }
