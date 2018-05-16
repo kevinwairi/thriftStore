@@ -1,15 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
-.container-fluid	{
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Josefin+Sans:400,700|Open+Sans:300');
+/*.container-fluid	{
 	padding: 0 0 0 0 ;
 	margin: 0 0 0 0 ;
-}
+	width: 100%;
+	height: 100%;
+}*/
 body{
 	background-color: #fff;
 }
+.header	{
+	height: 320px;
+}
+.title	{
+/*	position: fixed;*/
+	width: 100%;
+	top: 0;
+	overflow: hidden;
+}
+
 .navbar	{
 	display: block;
-	/*background-color: gray;*/
 	height: 60px;
+	border-bottom: 1px solid #518d39;
 
 }
 .navItems li{
@@ -19,12 +31,12 @@ body{
 
 }
 .navItems a{
-	color: black;
+	color: #000;
 	padding-left: 15px;
 	font-family: 'Open Sans', sans-serif;
 }
-.drop-down:hover li{
-	display: list-item;
+.drop-down :hover li{
+	display: block;
 }
 .drop-down  ul li{
 	display: none;
@@ -34,26 +46,39 @@ body{
 	width: 30px;
 }
 .intro{
-	padding-top: 100px;
 	margin: 0 auto;
 	width: 400px;
-	color: red;
+	color: #518d39;
 	font-size: 20px;
 	text-align: center;
 }
-/*.adv	{
-	height:  200px;
-	width: 100%;
-}*/
+.intro p {
+	font-family:'Amatic SC', cursive;
+	font-size: 40px;
+}
+.intro button{
+	padding: 10px;
+	color: #518d39;
+	border-radius: 30px;
+	background-color: inherit;
+	border:1px solid #518d39;
+}
+.intro button:hover{
+	font-family:'Amatic SC', cursive;
+	transform: scale(1.2);
+	border:0;
+}
 .section{
-	height: 400px;
+	height: 250px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 20px;
 
 }
 .wrapper {
 /*	border: 1px solid #ddd;*/
 	padding: 4px;
 
-	margin-left: 10px;
+	margin-left: 30%;
 	width: 335px;
 /*	overflow: hidden;*/
 }
@@ -62,7 +87,7 @@ body{
 	width: 250px;
 	margin-left: 4px;
 	height: 200px;
-	margin: 0 -60px;
+	margin: 0 -80px;
 } 
 .wrapper img:hover {
 	transform: scale(1.2);
@@ -72,7 +97,15 @@ body{
 	height: 210px;
 	width: 260px;
 }
-.header	{
-	background-color: gray;
-	height: 300px;
+.footer{
+	padding: 10px;
+	background-color: #518d39;
+}
+.footer p{
+	padding-left: 60px;
+	display: inline-block;
+}
+.footer p a{
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
 }
