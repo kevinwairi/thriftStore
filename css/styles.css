@@ -348,18 +348,6 @@ header	{
 	height: 210px;
 	width: 260px;
 }
-footer{
-	padding: 10px;
-	background-color: #518d39;
-}
-footer p{
-	padding-left: 60px;
-	display: inline-block;
-}
-footer p a{
-	color: #000;
-	font-family: 'Open Sans', sans-serif;
-}
 .row-about {
   height: 450px;
   background-color: #E8E7E7;
@@ -404,4 +392,106 @@ footer p a{
   width: 25px;
   margin: 10px 10px 10px 10px;
 }
-
+/*
+ * INDEX.HTML STYLES UPDATE 
+ */
+ .navItems{
+   float: right;
+ }
+ .home-about-title{
+   font-size: 2rem;
+   text-transform: uppercase;
+   text-align: center;
+   margin-top: 5%;
+   margin-bottom: 2%;
+   position: relative;
+ }
+ .home-about-title::after{
+   content: '';
+   display: block;
+   width:10px;
+   color: green;
+   position: absolute;
+ } 
+ .home-about-subtitle {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #555;
+}
+.fa-donate, 
+.fa-shopping-cart, 
+.fa-tag {
+  font-size: 1.3rem;
+  align-content: left;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+  color: green;
+  font-size: 1.5rem;
+}
+.home-about-desc {
+  text-align: center;
+  line-height: 1.6;
+  width: 90%;
+}
+.home-about-btn {
+  background-color: #fff;
+  border: 1px solid green;
+  margin-left: 38%;
+}
+.home-about-btn a{
+  color: #333;
+}
+.home-about-btn a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+.home-about-btn:hover,
+.home-about-btn:active{
+  background-color: green;
+  color: #fff;
+}
+.my-footer {
+  padding-top: 1%;
+  text-align: center;
+  margin-left: -10%;
+  height: 170px;
+  margin-top: 5%;
+	background-color: rgba(0, 0, 0, 0.856);
+}
+.footer-social-icons {
+  color: #ccc;
+  margin-bottom: 5px;
+  padding-left: 35px;  
+}
+.footer-social-icons i{
+  padding-right: 15px;
+}
+.footer-list {
+  display: inline-block;
+  padding-left: 35px;
+  text-align: center;
+  color: #ddd
+}
+.footer-list a {
+  color: #ccc;
+}
+.footer-list a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-mini {
+  display: inline-block;
+  padding-right: 9px;
+  color: #ccc;
+  padding-left: 9px;
+  border-right: 1px solid #777;
+}
+.copyrights {
+  background-color: green;
+  width: 100%;
+  padding-bottom: 1%; 
+  padding-top: 1%;
+  color: #ddd;
+}
