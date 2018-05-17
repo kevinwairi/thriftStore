@@ -3728,18 +3728,9 @@ tbody.collapse.in {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
           box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
-<<<<<<< HEAD
 .btn-group.open .dropdown-toggle.btn-link {
   -webkit-box-shadow: none;
           box-shadow: none;
-=======
-
-.jumbotron {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  background-color: #e9ecef;
-  border-radius: 0;
->>>>>>> kevin
 }
 .btn .caret {
   margin-left: 0;
