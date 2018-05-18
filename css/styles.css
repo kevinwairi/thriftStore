@@ -138,7 +138,7 @@ footer p a{
 =======
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Josefin+Sans:400,700|Open+Sans:300 | Skranji:400,700');
-	
+
 /*
  * PURCHASE SECTION PAGE STYLES
  */
@@ -169,9 +169,9 @@ ul.list-items {
 }
 .item a:active{
   font-weight: 700;
-  text-decoration: none;  
+  text-decoration: none;
 }
-.item a:hover{ 
+.item a:hover{
   text-decoration: none;
   opacity: 0.7;
 }
@@ -258,9 +258,9 @@ ul.list-items {
 }
 .item a:active{
   font-weight: 700;
-  text-decoration: none;  
+  text-decoration: none;
 }
-.item a:hover{ 
+.item a:hover{
   text-decoration: none;
   opacity: 0.7;
 }
@@ -380,13 +380,13 @@ header	{
 	color: #518d39;
 	font-size: 20px;
 	text-align: center;
-	
+
 }
 .intro p {
 	font-family:'Amatic SC', cursive;
 	font-size: 40px;
 	text-align: center;
-	font-family:'Amatic SC', cursive;	
+	font-family:'Amatic SC', cursive;
 }
 .intro button,
 #btn{
@@ -432,7 +432,7 @@ header	{
 	height: 350px;
 	width: 275px;
 	margin: 20px;
-	
+
 }
 .img-gallery img:hover{
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -472,7 +472,7 @@ header	{
 	margin-left: 4px;
 	height: 200px;
 	margin: 0 -80px;
-} 
+}
 .wrapper img:hover {
 	transform: scale(1.2);
 }
@@ -495,7 +495,7 @@ footer p a{
 }
 .row-about {
   height: 450px;
-  background-image: url("../images/back3.jpeg");
+  background-image: url("../img/back3.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 4px 0 10px 0;
@@ -503,7 +503,7 @@ footer p a{
 #about {
   height: 350px;
   margin: 20px auto;
-  background-image: url("../images/water.jpg");
+  background-image: url("../img/water.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.4;
@@ -511,7 +511,7 @@ footer p a{
 .row-testimonial {
   height: 600px;
   margin: 60px 0 10px 0;
-  background-image: url("../images/clothes3.jpeg");
+  background-image: url("../img/clothes3.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -519,7 +519,7 @@ footer p a{
   height: 450px;
   margin: 60px 0 10px 0;
   padding: 0 0 0 0;
-  background-image: url("../images/contact2.jpeg");
+  background-image: url("../img/contact2.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -546,7 +546,7 @@ footer p a{
   padding: 30px 30px 30px 30px;
   background-color: #F2F2F2;
   display: block;
-  background-image: url("../images/misty.jpeg");
+  background-image: url("../img/misty.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.7;
@@ -619,4 +619,3 @@ footer p a{
 .youtube:hover {
   filter: grayscale(100%);
 }
-
