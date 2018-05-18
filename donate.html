@@ -6,35 +6,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Donate Page</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,700i,900" rel="stylesheet">
   <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">  
   <link href="css/styles.css" rel="stylesheet">
-  <h2 class = "donate">DONATE</h2>
-  <p class= "donateparagraph">Please enter your details in the form below.</p>
-
-<form action="/action_page.php">
-  First name:<br>
-  <input type="text" name="firstname" value="" style='width:75%'>
-  <br><br>
-  Last name:<br>
-  <input type="text" name="lastname" value="" style="width:75%">
-  <br><br>
-  Email Address:<br>
-  <input type="text" name="lastname" value="" style='width:75%'>
-  <br><br>
-  Telephone Number:<br>
-  <input type="text" name="lastname" value="" style='width:75%'>
-  <br><br>
-  Physicall Address:<br>
-  <input type="text" name="lastname" value="" style='width:75%'>
-  <br><br>
-
-  <input type="submit" value="Submit">
-
-</form>
-
-
+  <link rel="shortcut icon" href="img/recycle.png" type="image/x-icon"/>  
 </head>
-<body>
+
+  <header>
+    <div class="navbar">
+      <div class="nav">
+        <a href="index.html"><img class="logo" src="img/recycle.png"></a>
+        <ul class="navItems">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="buy.html">Buy</a></li>
+          <li><a href="sell.html">Sell</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contacts.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="donate-hero"></div>
+  <div class="donate-section">
+    <h2 class = "donate">DONATE</h2>
+    <p>
+      More items than you need, collected for charity, given to the needy. link Lorem, ipsum dolor sit amet consectetur adipisicing elit. A placeat quo accusamus esse quibusdam nam non 
+    </p>
+  </div>
+  <div class="container">
+  <p class= "donateparagraph">Please fill in the details below to donate items</p>
+  <form action="/action_page.php">
+    First name:<br>
+    <input type="text" name="firstname" value="" style='width:75%'>
+    <br><br>
+    Last name:<br>
+    <input type="text" name="lastname" value="" style="width:75%">
+    <br><br>
+    Email Address:<br>
+    <input type="text" name="lastname" value="" style='width:75%'>
+    <br><br>
+    Telephone Number:<br>
+    <input type="text" name="lastname" value="" style='width:75%'>
+    <br><br>
+    Address:<br>
+    <input type="text" name="lastname" value="" style='width:75%'>
+    <br><br>
+
+    <input type="submit" value="Donate" class="btn donate-button">
+
+  </form>
+</div>
+<footer>
+    <div class="my-footer">
+      <div class="footer-social-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-pinterest-p"></i>
+        <i class="fas fa-envelope"></i>
+      </div>
+      <ul class="footer-lists">
+        <li class="footer-list"><a href="index.html">Home</a></li>
+        <li class="footer-list"><a href="donate.html">Donate</a></li>
+        <li class="footer-list"><a href="sell.html">Sell</a></li>
+        <li class="footer-list"><a href="buy.html">Purchase</a></li>
+        <li class="footer-list"><a href="index.html">Address</a></li>
+        <li class="footer-list"><a href="about.html">Contact</a></li>
+      </ul>
+      <ul class="footer-mini-list">
+        <li class="footer-mini">About</li>
+        <li class="footer-mini">Contact</li>
+        <li class="footer-mini">Reviews</li>
+        <li class="footer-mini">Delivery</li>
+      </ul>
+      <p class="copyrights">
+        &copy; Copyright Thrift Store 2018
+      </p>
+    </div>
+</footer>
 
 </body>
 </html>
